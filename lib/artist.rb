@@ -12,7 +12,7 @@ class Artist
     @songs << song
   end
 
-  def save=()
+  def save
     @@all << self #saves the artist name to the all array
   end
 
